@@ -23,4 +23,10 @@ class Book:
         return self.publisher_name
 
     def __str__(self):
-        return self.__str__()
+        return ("Book Title: " + str(self.book_title) +
+                "\nAuthor Name: " + str(self.author_name) +
+                "\nPublisher Name: " + str(self.publisher_name))
+
+
+book1 = Book("Kidagaa","Ken W.","Eagle Inc")
+print(book1.__str__())

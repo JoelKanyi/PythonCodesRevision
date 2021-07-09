@@ -50,10 +50,3 @@ wordsList = ["serve", "rival", "lovely", "caveat", "devote", "irving", "livery",
              "observe", "octavian", "dovetail", "levantine"]
 
 print(find_all_anagrams(wordsList))
-
-'''
-
-
-                    if anagrams(word, w):
-                        anagram_list.append(word)
-'''
